@@ -1,0 +1,102 @@
+<!doctype html>
+<html><head>
+    <meta charset="UTF-8" name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<style type='text/css'>
+		html { font-family:Helvetica; color:#222; }
+		h1 { color:steelblue; font-size:24px; margin-top:24px; }
+		button { margin:0 3px 10px; font-size:12px; }
+		.logLine { border-bottom:1px solid #ccc; padding:4px 2px; font-family:courier; font-size:11px; }
+	</style>
+</head><body>
+	<h1>WebViewJavascriptBridge Demo</h1>
+    
+	<script>
+	window.onerror = function(err) {
+		log('window.onerror: ' + err)
+	}
+
+    function connectWebViewJavascriptBridge(callback) {
+        
+        //
+        if (window.WebViewJavascriptBridge) {
+            return callback(WebViewJavascriptBridge);
+        }
+        if (window.WVJBCallbacks) {
+            return window.WVJBCallbacks.push(callback);
+        }
+        
+        window.WVJBCallbacks = [callback];
+        var WVJBIframe = document.createElement('iframe');
+        WVJBIframe.style.display = 'none';
+        WVJBIframe.src = 'https://__bridge_loaded__';
+        document.documentElement.appendChild(WVJBIframe);
+        setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+    }
+
+
+    connectWebViewJavascriptBridge(function(bridge) {
+                                   
+		function log(message, data) {
+                                   
+		}
+                                 
+        // OC 回调给 JS
+		bridge.registerHandler('testJavascriptHandler', function(data, responseCallback) {
+                               
+			log('ObjC called testJavascriptHandler with', data)
+			var responseData = { 'Javascript Says':'Right back atcha!' }
+                               
+			responseCallback(responseData)
+		})
+
+        // JS 回调给 OC（支付宝认证）
+        var callbackButton = document.getElementById('auth')
+                                 
+        callbackButton.onclick = function(e) {
+                                 
+        e.preventDefault()
+                                   
+        bridge.callHandler('authAction', {/* 数据 */}, function(response) {
+            // 处理
+            alert('success');
+            log('JS got response', response);
+        })
+    
+        }
+                                   
+        // 其他方式认证
+        var callbackButton = document.getElementById('button');
+                                   
+        callbackButton.onclick = function (e) {
+                                   
+            bridge.callHandler('jumpPage', {"url":"tudouni://tudouni/idcard"/* 数据 */}, function (response) {
+                //回调成功，数据处理
+                log('JS got response', response)
+            })
+        }
+                                   
+                                   bridge.registerHandler('showChat', function(data, responseCallback) {
+                                                          log('ObjC called showChat with', data)
+                                                          var responseData = { 'Javascript Says':'Right back atcha!' }
+                                                          log('JS responding with', responseData)
+                                                          responseCallback(responseData)
+                                                          })
+                                 
+	})
+	</script>
+    
+    <div class="header_size">
+        <p>根据相关法规,开直播需要实名认证</p>
+        <p>实名认证不涉及金钱账户</p>
+        <p>认证信息土豆泥会严格保密</p>
+    </div>
+    
+    <div class="key">
+        <div id="auth">支付宝一键认证</div>
+    </div>
+    
+    <div class="footer">
+        <span id="button">其他认证方式</span>
+    </div>
+    
+</body></html>
