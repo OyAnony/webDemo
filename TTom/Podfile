@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+
+
+target 'TTom' do
+   pod 'PGNetworkHelper', '~> 2.0.1'
+
+ end

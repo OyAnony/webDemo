@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A1E9EDEDDC686431D19670 /* libPods-TTom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3759E0B7630B98935348DCA2 /* libPods-TTom.a */; };
+		187697E22064039D0034C859 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187697E12064039D0034C859 /* AppDelegate.m */; };
+		187697E52064039D0034C859 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187697E42064039D0034C859 /* ViewController.m */; };
+		187697E82064039D0034C859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187697E62064039D0034C859 /* Main.storyboard */; };
+		187697EA2064039D0034C859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187697E92064039D0034C859 /* Assets.xcassets */; };
+		187697ED2064039D0034C859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187697EB2064039D0034C859 /* LaunchScreen.storyboard */; };
+		187697F02064039D0034C859 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187697EF2064039D0034C859 /* main.m */; };
+		187697FA2064039D0034C859 /* TTomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187697F92064039D0034C859 /* TTomTests.m */; };
+		187698052064039D0034C859 /* TTomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187698042064039D0034C859 /* TTomUITests.m */; };
+		18AE55FB2064059500727CCA /* NBNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE55F92064059500727CCA /* NBNetWork.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187697F62064039D0034C859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187697D52064039D0034C859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187697DC2064039D0034C859;
+			remoteInfo = TTom;
+		};
+		187698012064039D0034C859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187697D52064039D0034C859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187697DC2064039D0034C859;
+			remoteInfo = TTom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187697DD2064039D0034C859 /* TTom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187697E02064039D0034C859 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187697E12064039D0034C859 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187697E32064039D0034C859 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187697E42064039D0034C859 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187697E72064039D0034C859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187697E92064039D0034C859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187697EC2064039D0034C859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187697EE2064039D0034C859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187697EF2064039D0034C859 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187697F52064039D0034C859 /* TTomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187697F92064039D0034C859 /* TTomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTomTests.m; sourceTree = "<group>"; };
+		187697FB2064039D0034C859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187698002064039D0034C859 /* TTomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187698042064039D0034C859 /* TTomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTomUITests.m; sourceTree = "<group>"; };
+		187698062064039D0034C859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AE55F92064059500727CCA /* NBNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNetWork.m; sourceTree = "<group>"; };
+		18AE55FA2064059500727CCA /* NBNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNetWork.h; sourceTree = "<group>"; };
+		20A4F95DAD9234FC661E14DA /* Pods-TTom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTom.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTom/Pods-TTom.release.xcconfig"; sourceTree = "<group>"; };
+		249E47F11A8B4799BC0E6A69 /* Pods-TTom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTom/Pods-TTom.debug.xcconfig"; sourceTree = "<group>"; };
+		3759E0B7630B98935348DCA2 /* libPods-TTom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187697DA2064039D0034C859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1E9EDEDDC686431D19670 /* libPods-TTom.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187697F22064039D0034C859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187697FD2064039D0034C859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187697D42064039D0034C859 = {
+			isa = PBXGroup;
+			children = (
+				187697DF2064039D0034C859 /* TTom */,
+				187697F82064039D0034C859 /* TTomTests */,
+				187698032064039D0034C859 /* TTomUITests */,
+				187697DE2064039D0034C859 /* Products */,
+				7BC015BB7F038F0FCF309878 /* Pods */,
+				DBB6EA82ABA3E266DFB0184D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		187697DE2064039D0034C859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187697DD2064039D0034C859 /* TTom.app */,
+				187697F52064039D0034C859 /* TTomTests.xctest */,
+				187698002064039D0034C859 /* TTomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187697DF2064039D0034C859 /* TTom */ = {
+			isa = PBXGroup;
+			children = (
+				18AE55F82064056C00727CCA /* lib */,
+				187697E02064039D0034C859 /* AppDelegate.h */,
+				187697E12064039D0034C859 /* AppDelegate.m */,
+				187697E32064039D0034C859 /* ViewController.h */,
+				187697E42064039D0034C859 /* ViewController.m */,
+				187697E62064039D0034C859 /* Main.storyboard */,
+				187697E92064039D0034C859 /* Assets.xcassets */,
+				187697EB2064039D0034C859 /* LaunchScreen.storyboard */,
+				187697EE2064039D0034C859 /* Info.plist */,
+				187697EF2064039D0034C859 /* main.m */,
+			);
+			path = TTom;
+			sourceTree = "<group>";
+		};
+		187697F82064039D0034C859 /* TTomTests */ = {
+			isa = PBXGroup;
+			children = (
+				187697F92064039D0034C859 /* TTomTests.m */,
+				187697FB2064039D0034C859 /* Info.plist */,
+			);
+			path = TTomTests;
+			sourceTree = "<group>";
+		};
+		187698032064039D0034C859 /* TTomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187698042064039D0034C859 /* TTomUITests.m */,
+				187698062064039D0034C859 /* Info.plist */,
+			);
+			path = TTomUITests;
+			sourceTree = "<group>";
+		};
+		18AE55F82064056C00727CCA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				18AE55FA2064059500727CCA /* NBNetWork.h */,
+				18AE55F92064059500727CCA /* NBNetWork.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		7BC015BB7F038F0FCF309878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				249E47F11A8B4799BC0E6A69 /* Pods-TTom.debug.xcconfig */,
+				20A4F95DAD9234FC661E14DA /* Pods-TTom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBB6EA82ABA3E266DFB0184D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3759E0B7630B98935348DCA2 /* libPods-TTom.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187697DC2064039D0034C859 /* TTom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187698092064039D0034C859 /* Build configuration list for PBXNativeTarget "TTom" */;
+			buildPhases = (
+				FE999FBE51E852699ECA2549 /* [CP] Check Pods Manifest.lock */,
+				187697D92064039D0034C859 /* Sources */,
+				187697DA2064039D0034C859 /* Frameworks */,
+				187697DB2064039D0034C859 /* Resources */,
+				FB2ED34F10A6E62EA3918D4F /* [CP] Embed Pods Frameworks */,
+				D8E665C422AB04EFDB271EAC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTom;
+			productName = TTom;
+			productReference = 187697DD2064039D0034C859 /* TTom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187697F42064039D0034C859 /* TTomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1876980C2064039D0034C859 /* Build configuration list for PBXNativeTarget "TTomTests" */;
+			buildPhases = (
+				187697F12064039D0034C859 /* Sources */,
+				187697F22064039D0034C859 /* Frameworks */,
+				187697F32064039D0034C859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187697F72064039D0034C859 /* PBXTargetDependency */,
+			);
+			name = TTomTests;
+			productName = TTomTests;
+			productReference = 187697F52064039D0034C859 /* TTomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187697FF2064039D0034C859 /* TTomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1876980F2064039D0034C859 /* Build configuration list for PBXNativeTarget "TTomUITests" */;
+			buildPhases = (
+				187697FC2064039D0034C859 /* Sources */,
+				187697FD2064039D0034C859 /* Frameworks */,
+				187697FE2064039D0034C859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187698022064039D0034C859 /* PBXTargetDependency */,
+			);
+			name = TTomUITests;
+			productName = TTomUITests;
+			productReference = 187698002064039D0034C859 /* TTomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187697D52064039D0034C859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = OuYang;
+				TargetAttributes = {
+					187697DC2064039D0034C859 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					187697F42064039D0034C859 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 187697DC2064039D0034C859;
+					};
+					187697FF2064039D0034C859 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 187697DC2064039D0034C859;
+					};
+				};
+			};
+			buildConfigurationList = 187697D82064039D0034C859 /* Build configuration list for PBXProject "TTom" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187697D42064039D0034C859;
+			productRefGroup = 187697DE2064039D0034C859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187697DC2064039D0034C859 /* TTom */,
+				187697F42064039D0034C859 /* TTomTests */,
+				187697FF2064039D0034C859 /* TTomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187697DB2064039D0034C859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187697ED2064039D0034C859 /* LaunchScreen.storyboard in Resources */,
+				187697EA2064039D0034C859 /* Assets.xcassets in Resources */,
+				187697E82064039D0034C859 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187697F32064039D0034C859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187697FE2064039D0034C859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D8E665C422AB04EFDB271EAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTom/Pods-TTom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2ED34F10A6E62EA3918D4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTom/Pods-TTom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE999FBE51E852699ECA2549 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187697D92064039D0034C859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AE55FB2064059500727CCA /* NBNetWork.m in Sources */,
+				187697E52064039D0034C859 /* ViewController.m in Sources */,
+				187697F02064039D0034C859 /* main.m in Sources */,
+				187697E22064039D0034C859 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187697F12064039D0034C859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187697FA2064039D0034C859 /* TTomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187697FC2064039D0034C859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187698052064039D0034C859 /* TTomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187697F72064039D0034C859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187697DC2064039D0034C859 /* TTom */;
+			targetProxy = 187697F62064039D0034C859 /* PBXContainerItemProxy */;
+		};
+		187698022064039D0034C859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187697DC2064039D0034C859 /* TTom */;
+			targetProxy = 187698012064039D0034C859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187697E62064039D0034C859 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187697E72064039D0034C859 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187697EB2064039D0034C859 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187697EC2064039D0034C859 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187698072064039D0034C859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187698082064039D0034C859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1876980A2064039D0034C859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249E47F11A8B4799BC0E6A69 /* Pods-TTom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OuYang.TTom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1876980B2064039D0034C859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A4F95DAD9234FC661E14DA /* Pods-TTom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OuYang.TTom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1876980D2064039D0034C859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OuYang.TTomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTom.app/TTom";
+			};
+			name = Debug;
+		};
+		1876980E2064039D0034C859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OuYang.TTomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTom.app/TTom";
+			};
+			name = Release;
+		};
+		187698102064039D0034C859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OuYang.TTomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTom;
+			};
+			name = Debug;
+		};
+		187698112064039D0034C859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OuYang.TTomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187697D82064039D0034C859 /* Build configuration list for PBXProject "TTom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187698072064039D0034C859 /* Debug */,
+				187698082064039D0034C859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187698092064039D0034C859 /* Build configuration list for PBXNativeTarget "TTom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1876980A2064039D0034C859 /* Debug */,
+				1876980B2064039D0034C859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1876980C2064039D0034C859 /* Build configuration list for PBXNativeTarget "TTomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1876980D2064039D0034C859 /* Debug */,
+				1876980E2064039D0034C859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1876980F2064039D0034C859 /* Build configuration list for PBXNativeTarget "TTomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187698102064039D0034C859 /* Debug */,
+				187698112064039D0034C859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187697D52064039D0034C859 /* Project object */;
+}
